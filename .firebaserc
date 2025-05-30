@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "ektr",
+    "ektr": "ektr-c3f1a"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
