@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: ultragamers
+      - run: npm build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ULTRAGAMERS_1 }}
-          projectId: ultragamers-1
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_EKTR_C3F1A }}
+          projectId: ektr-c3f1a
