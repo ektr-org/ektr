@@ -82,3 +82,9 @@ footer a:hover {
   color: #000;
   text-decoration: none;
 }
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
